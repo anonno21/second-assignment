@@ -75,65 +75,287 @@
 
  .banner-container {
      width: 1920px;
-     height: 5927px;
+     height: 700px;
      background: #FFF;
      display: flex;
  }
- .banner-text{
-    width: 901px;
-    height: 700px;
-  margin-left: 224px;
+
+ .banner-text {
+     width: 901px;
+     height: 700px;
+     margin-left: 224px;
  }
- .banner-head{
-    color: #0B0223;
+
+ .banner-head {
+     color: #0B0223;
+     font-family: Work Sans;
+     font-size: 48px;
+     font-weight: 600;
+     text-transform: uppercase;
+ }
+
+ .goat {
+     font-family: Work Sans;
+     font-size: 95px;
+     font-weight: 800;
+     text-transform: uppercase;
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+
+ .frame-two {
+     display: flex;
+     gap: 12px;
+     color: #534C64;
+     font-family: Work Sans;
+     font-size: 20px;
+     font-weight: 500;
+ }
+
+ .banner-btn {
+     display: flex;
+     gap: 24px;
+ }
+
+ .btn-one {
+     display: inline-flex;
+     padding: 21px 40px;
+     align-items: flex-start;
+     gap: 10px;
+     border-radius: 48px;
+     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+     color: #FFF;
+     font-family: Work Sans;
+     font-size: 20px;
+     border: none;
+     font-weight: 600;
+     text-transform: uppercase;
+ }
+
+ .btn-two {
+     display: inline-flex;
+     padding: 21px 40px;
+     align-items: flex-start;
+     gap: 10px;
+     border-radius: 48px;
+     background: #4EC5F7;
+     border: none;
+     color: #FFF;
+     font-family: Work Sans;
+     font-size: 20px;
+     font-weight: 600;
+     text-transform: uppercase;
+ }
+
+ .banner-img {
+     margin-right: 170px;
+ }
+
+ .banner-two-container {
+     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .banner-two-div {
+     text-align: right;
+ }
+
+ .we-are-gamer {
+     text-align: right;
+     font-family: Work Sans;
+     font-size: 48px;
+     font-weight: 700;
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+
+ .banner-two-img {
+     width: 868px;
+     height: 489px;
+ }
+
+ .banner-two-para {
+     color: #534C64;
+     text-align: right;
+     font-family: Work Sans;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 30px;
+ }
+
+ .banner-two-para-two {
+     color: #534C64;
+     text-align: right;
+     font-family: Work Sans;
+     font-size: 24px;
+     font-weight: 500;
+     line-height: 45px;
+     /* 187.5% */
+ }
+
+ .banner-two-para-three {
+     color: #534C64;
+     font-family: Work Sans;
+     font-size: 32px;
+     font-weight: 700;
+     line-height: 45px;
+ }
+
+ .online-games {
+     color: #0B0223;
+     text-align: center;
+     font-family: Work Sans;
+     font-size: 48px;
+     font-weight: 700;
+     margin-top: 80px;
+ }
+
+ .funny-videos {
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+
+ .online-para {
+     color: #534C64;
+     text-align: center;
+     font-family: Work Sans;
+     font-size: 18px;
+     font-weight: 400;
+ }
+
+ .collection {
+     display: flex;
+     gap: 24px;
+     margin-left: 240px;
+ }
+
+ .image {
+     opacity: 1;
+     display: block;
+     width: 100%;
+     height: auto;
+     transition: .5s ease;
+     backface-visibility: hidden;
+ }
+
+ .middle {
+     transition: .5s ease;
+     opacity: 0;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%)
+ }
+
+ .container:hover .image {
+     opacity: 0.3;
+ }
+
+ .container:hover .middle {
+     opacity: 1;
+ }
+
+ .watch {
+     background-color: black;
+     color: white;
+     font-size: 16px;
+     padding: 16px 32px;
+ }
+
+ .collection-para {
+     color: #534C64;
+     font-family: Work Sans;
+     font-size: 20px;
+     font-weight: 500;
+ }
+ .features{
+    display: flex;
+    justify-content: space-evenly;
+    height: 970px;
+   margin-top: 120px;
+    
+ }
+ .features-div{
+   margin-left: 199px;
+   height: 270px;
+ }
+ .play-instantly{
 font-family: Work Sans;
 font-size: 48px;
-font-weight: 600;
-text-transform: uppercase;
- }
- .goat{
-font-family: Work Sans;
-font-size: 95px;
-font-weight: 800;
-text-transform: uppercase;
+font-weight: 700;
+line-height: 60px; /* 125% */
 background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
  }
- .frame-two{
-    display: flex;
-    gap: 12px;
+ .features-head{
+    color: #0B0223;
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+line-height: 60px;
  }
- .banner-btn{
-    display: flex;
-    gap: 24px;
+ .features-para{
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
  }
- .btn-one{
-    display: inline-flex;
-padding: 21px 40px;
-align-items: flex-start;
-gap: 10px;
-border-radius: 48px;
-background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-color: #FFF;
+ .features-img{
+    position: relative;
+  bottom: 240px;
+    width: 318.5px;
+height: 365.083px;
+right: 145px;
+border-radius: 8px;
+ }
+ .games-collection{
+    height: 427px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+ }
+ .games-collection-one{
+    display: flex;
+    gap: 57px;
+    margin-left: 249px;
+  
+ }
+ .games-collection-div{
+    display: flex;
+    gap: 16px;
+    margin-top: 40px;
+ }
+ .games-collection-title{
+    color: #0B0223;
 font-family: Work Sans;
 font-size: 20px;
-border: none;
 font-weight: 600;
-text-transform: uppercase;
  }
- .btn-two{
-    display: inline-flex;
-padding: 21px 40px;
-align-items: flex-start;
-gap: 10px;
-border-radius: 48px;
-background: #4EC5F7;
-border: none;
-color: #FFF;
-font-family: Work Sans;
+ .arcade{
+border-radius: 50px;
+background: #FFF;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 font-size: 20px;
 font-weight: 600;
-text-transform: uppercase;
+ }
+ .games-collection-two{
+    display: flex;
+    gap: 57px;
+ }
+ .games-collection-div-two{
+    display: flex;
+    gap: 16px;
  }
