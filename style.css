@@ -1,22 +1,139 @@
  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
-*{
-    font-family: 'Open Sans', sans-serif;
-font-family: 'Work Sans', sans-serif;
-}
-.nav-container{
-    width: 1920px;
-    height: 130px;
-    background: #FFF;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-}
-.logo-container{
+
+ * {
+     font-family: 'Open Sans', sans-serif;
+     font-family: 'Work Sans', sans-serif;
+     box-sizing: border-box;
+ }
+
+ .nav-container {
+     width: 1920px;
+     height: 130px;
+     background: #FFF;
+     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+     display: flex;
+     align-items: center;
+ }
+
+ .logo-container {
+     display: flex;
+     margin-left: 240px;
+ }
+
+ .logo-container img {
+     width: 86.041px;
+     height: 40px;
+     flex-shrink: 0;
+     object-fit: cover;
+     margin-top: 50px;
+     margin-right: 20px;
+ }
+
+ .gamer-para {
+     font-size: 45px;
+     font-weight: 700;
+     color: #0B0223;
+ }
+
+ .gamer {
+     color: #FF42A5;
+ }
+
+ .nav-items-container {
+     display: flex;
+     margin-left: 682px;
+     width: 50%;
+     gap: 32px;
+     align-items: center;
+ }
+
+ .nav-items-container a {
+     text-decoration: none;
+     color: #3C354F;
+     text-align: center;
+     font-family: Work Sans;
+     font-size: 18px;
+     font-weight: 500;
+ }
+
+ .nav-items-container .follow-btn {
+     border-radius: 8px;
+     background: rgba(11, 2, 35, 0.10);
+     padding: 17px 80px 18px 24px;
+ }
+
+ .youtube {
+     width: 33.916px;
+     height: 24px;
+     margin-left: 24px;
+     fill: #F61C0D;
+ }
+
+ .tiktok {
+     margin-left: 16px;
+ }
+
+ .banner-container {
+     width: 1920px;
+     height: 5927px;
+     background: #FFF;
+     display: flex;
+ }
+ .banner-text{
+    width: 901px;
+    height: 700px;
+  margin-left: 224px;
+ }
+ .banner-head{
+    color: #0B0223;
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 600;
+text-transform: uppercase;
+ }
+ .goat{
+font-family: Work Sans;
+font-size: 95px;
+font-weight: 800;
+text-transform: uppercase;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+ }
+ .frame-two{
     display: flex;
-}
-.logo-container img{
-    object-fit: cover;
-}
-.gamer-para {
-    
-    font-size: 45px;
-    font-weight: 700;
-}
+    gap: 12px;
+ }
+ .banner-btn{
+    display: flex;
+    gap: 24px;
+ }
+ .btn-one{
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+border: none;
+font-weight: 600;
+text-transform: uppercase;
+ }
+ .btn-two{
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: #4EC5F7;
+border: none;
+color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+text-transform: uppercase;
+ }
